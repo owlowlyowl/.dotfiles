@@ -1,6 +1,9 @@
 # .dotfiles
 Cross platform configuration.
 
+- [GNU stow](https://www.gnu.org/software/stow/) - a symlink farm manager which
+takes distinct packages of software and/or data located in separate directories
+on the filesystem, and makes them appear to be installed in the same place.
 - [pixi](https://prefix.dev) - a fast software package manager built on top of the
 existing conda ecosystem. Spins up development environments quickly on Windows, 
 macOS and Linux.
@@ -11,9 +14,6 @@ maintained replacement for ls.
 which directories you use most
 frequently, so you can "jump" to them in just a few keystrokes.
 - [starship](https://starship.rs) - cross shell prompt.
-- [GNU stow](https://www.gnu.org/software/stow/) - a symlink farm manager which
-takes distinct packages of software and/or data located in separate directories
-on the filesystem, and makes them appear to be installed in the same place.
 
 ## Installation
 Clone and use GNU stow to setup dotfiles.
@@ -25,7 +25,6 @@ stow .
 ```
 
 ## Platform Setups
-
 ### Arch Linux
 ```bash
 curl -fsSL https://pixi.sh/install.sh | bash
