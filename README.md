@@ -51,12 +51,3 @@ starship preset nerd-font-symbols -o ~/.config/starship.toml
 ```bash
 pacman -S stow
 ```
-
-dotfile setup.
-```bash
-cd ~
-git clone https://github.com/owlowlyowl/.dotfiles.git
-cd .dotfiles
-stow .
-cd ~
-```
