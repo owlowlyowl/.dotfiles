@@ -1,0 +1,24 @@
+return {
+  "folke/which-key.nvim",
+  event = "VeryLazy",
+  init = function()
+    vim.o.timeout = true
+    vim.o.timeoutlen = 300
+
+    local wk = require("which-key")
+
+    wk.setup({
+      plugins = { spelling = true },
+      key_labels = { 
+        ["<leader>"] = "SPC",
+      },
+    })
+    
+    wk.register({
+      mode = { "n", "v" },
+      ["<leader>f"] = { name = "+find" },
+      ["<leader>w"] = { name = "+session" },
+    })
+    
+  end
+}
