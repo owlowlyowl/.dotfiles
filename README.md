@@ -16,7 +16,7 @@ frequently, so you can "jump" to them in just a few keystrokes.
 - [starship](https://starship.rs) - cross shell prompt.
 
 ## Installation
-Clone and use GNU stow to setup dotfiles.
+Clone and use GNU stow to setup dotfiles - `git` and `stow` must be installed.
 ```bash
 cd ~
 git clone https://github.com/owlowlyowl/.dotfiles.git
