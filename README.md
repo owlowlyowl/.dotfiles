@@ -1,10 +1,10 @@
 ## Installation
 
-Install GNU stow.
+Install [GNU stow](https://www.gnu.org/software/stow/).
 
 | platform | command |
 | --- | --- |
-| Arch Linux | pacman -S stow |
+| Arch Linux | `pacman -S stow` |
 
 Clone and use GNU stow to setup dotfiles.
 ```bash
