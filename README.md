@@ -16,13 +16,6 @@ takes distinct packages of software and/or data located in separate directories
 on the filesystem, and makes them appear to be installed in the same place.
 
 ## Installation
-
-Install [GNU stow](https://www.gnu.org/software/stow/).
-
-| platform | command |
-| --- | --- |
-| Arch Linux | `pacman -S stow` |
-
 Clone and use GNU stow to setup dotfiles.
 ```bash
 cd ~
